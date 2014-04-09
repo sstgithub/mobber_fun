@@ -1,5 +1,7 @@
-.body {
-
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Muli"
 }
 
 .nav-bar {
@@ -14,18 +16,87 @@
 }
 
 .logo {
-	background:url("images/logo.png") no-repeat 200 center; /*edit this image so that it is just vector with transparent background*/
+	background:url("images/logo.png") no-repeat 200 center; 
 	min-height: 50px;
   padding-top: 8px;
 }
 
 .top-text {
-	color: blue;
+	font-weight: 900;
+	color: white;
 	/*min-height: 50px;
 	padding-top: 8px;*/
 	position: absolute;
-	margin: 7px;
+	margin: 15px;
 	margin-left: 275px;
+}
+
+.top-text-2 {
+	font-weight: 500;
+	color: white;
+	/*min-height: 50px;
+	padding-top: 8px;*/
+	position: absolute;
+	margin: 16px;
+	margin-left: 415px;
+}
+
+.top-text-3 {
+	font-weight: 500;
+	color: white;
+	/*min-height: 50px;
+	padding-top: 8px;*/
+	position: absolute;
+	margin: 16px;
+	margin-left: 550px;
+}
+
+
+.face {
+	background:url("images/face.png") no-repeat 1035 center;
+	position: top;
+	min-height: 50px;
+	padding-top: 8px;
+	margin-right: 10px;
+	margin-top: -56px;
+
+	/*right: 100px;*/
+}
+
+.top-text-4 {
+	font-family: "Muli", sans-serif;
+	font-weight: 500;
+	color: white;
+	/*min-height: 50px;
+	padding-top: 8px;*/
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 1100px;
+}
+
+.arrow {
+	background:url("images/arrow.png") no-repeat 1175 center;
+	position: top;
+	min-height: 45px;
+	padding-top: 8px;
+	margin-right: 10px;
+	margin-top: -55px;
+
+}
+
+.title-bar {
+	height: 90px;
+	width: 100%;
+	background-color: white;
+}
+
+.title-bar-text {
+	font-size: 30;
+	font-weight: 200;
+	color: lightblack;
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 200;
 }
 
 /*.inside {
