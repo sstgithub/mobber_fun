@@ -3,14 +3,23 @@
 }
 
 .nav-bar {
-	height: 63px;
-	width: 1000px;
-	background-repeat: url("images/bkgd.png")
+	/*height: 60px;
+	width: 100%;
+	background: url("images/bkgd.png")
+	background-repeat: repeat-x;
+	background-color: #fbfaf9;*/
+	background:url("images/bkgd.png") repeat-x top;
+	height: 60px;
 
 }
 
 .logo {
-	height: 60px;
-	width: 56px;
-	background-image: url("images/logo.png");
+	background:url("images/logo.png") no-repeat 200 center; /*edit this image so that it is just vector with transparent background*/
+	min-height: 50px;
+  padding-top: 8px;
 }
+
+/*.inside {
+	width: 60px;
+	margin: = 0 auto;
+}*/
