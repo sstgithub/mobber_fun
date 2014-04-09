@@ -1,0 +1,16 @@
+.body {
+
+}
+
+.nav-bar {
+	height: 63px;
+	width: 1000px;
+	background-repeat: url("images/bkgd.png")
+
+}
+
+.logo {
+	height: 60px;
+	width: 56px;
+	background-image: url("images/logo.png");
+}
