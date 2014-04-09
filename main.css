@@ -19,6 +19,15 @@
   padding-top: 8px;
 }
 
+.top-text {
+	color: blue;
+	/*min-height: 50px;
+	padding-top: 8px;*/
+	position: absolute;
+	margin: 7px;
+	margin-left: 275px;
+}
+
 /*.inside {
 	width: 60px;
 	margin: = 0 auto;
