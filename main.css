@@ -22,11 +22,50 @@ body {
 }
 
 .little-clock {
-	background:url("images/logo.png") no-repeat 2000 center; 
-	min-height: -500px;
-  padding-top: 8px;
+	background:url("images/clock.png") no-repeat center; 
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	margin-left: 405px;
+	margin-top: 17px;
+	padding: 0;
+}
+
+.black-transparent-bar {
+	height: 55px;
+	width: 615px;
+	/*background-color: white;*/
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 200;
+	background:rgb(0,0,0); /*The Fallback Color*/
+  background:rgba(0,0,0,0.5);
   position: absolute;
 }
+
+.black-bar-text {
+	font-weight: 200;
+	color: white;
+	position: absolute;
+}
+
+.world-tour-text { /*any way to put this in html file instead?*/
+	font-size: 22;
+	margin-left: 17px;
+	margin-top: 15px;
+}
+
+.mob-text {
+	font-size: 12.9;
+	margin-left: 432px;
+	margin-top: 20px;
+}
+
+
+
+	
+	
+
 
 .top-text {
 	font-weight: 900;
@@ -110,6 +149,16 @@ body {
 
 .title-bar {
 
+}
+
+.big-picture {
+	background:url("images/u2concert.jpg");
+	position:absolute;
+	height: 400px;
+	width: 620px;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 200;
 }
 
 .big-picture-bar {
