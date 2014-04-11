@@ -21,6 +21,13 @@ body {
   padding-top: 8px;
 }
 
+.little-clock {
+	background:url("images/logo.png") no-repeat 2000 center; 
+	min-height: -500px;
+  padding-top: 8px;
+  position: absolute;
+}
+
 .top-text {
 	font-weight: 900;
 	color: white;
@@ -100,6 +107,55 @@ body {
 	margin-top: 24px;
 	margin-left: 200;
 }
+
+.title-bar {
+
+}
+
+.big-picture-bar {
+	height: 575px;
+	width: 100%;
+	background-color: #F2F0EC;
+	box-shadow: 0 4px 6px -6px black;
+	margin: 0;
+}
+
+.big-picture-bar-textbar {
+	margin-top: 30px;
+	margin-left: 300;
+}
+
+.big-picture-bar-text {
+	margin-top: 30px;
+	margin-left: 300;
+}
+
+.big-picture-bar-second-text {
+	margin-top: 30px;
+	margin-left: 600;
+}
+
+.transparent {
+	background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+}
+
+.fourth-bar {
+	height: 610px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 4px 6px -6px black;
+	margin: 0;
+}
+
+.last-bar {
+	height: 341px;
+	width: 100%;
+	background-color: rgb(84,83,82);
+	box-shadow: 0 4px 6px -6px black;
+	margin: 0;
+}
+
 
 /*.inside {
 	width: 60px;
