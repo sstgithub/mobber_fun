@@ -163,14 +163,53 @@ body {
 
 }
 
+.grey-background {
+	height: 85px;
+	width: 620px;
+	background-color: rgb(208,205,199);
+	margin-left: 200px;
+	position: absolute;
+	margin-top: 430px;
+}
+
+.u2-description {
+	font-size: 17;
+	margin-left: 21px;
+	margin-top: 25px;
+	font-weight: 200;
+	color: rgba(0,0,0,0.6);
+	position: absolute;
+	font-style: italic;
+	font-style: bold;
+	z-index: 2;
+}
+
+.second-arrow {
+	background:url("images/second-arrow.png");
+	height: 40px;
+	width: 25px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 200px;
+	margin-top: 495px;
+}
+
+.TOS {
+	font-size: 12;
+	margin-left: 225px;
+	margin-top: 525px;
+	position: absolute;
+	color: rgb(120,120,120);
+	width: 521px;
+}
+
 .big-picture {
 	background:url("images/u2concert.jpg");
 	position:absolute;
 	height: 400px;
 	width: 620px;
-	margin: 0;
 	margin-top: 30px;
-	margin-left: 200;
+	margin-left: 200px;
 }
 
 .big-picture-bar {
@@ -179,6 +218,11 @@ body {
 	background-color: #F2F0EC;
 	box-shadow: 0 4px 6px -6px black;
 	margin: 0;
+}
+
+.big-picture-little-bar {
+	height: 64px;
+	width: 621px;
 }
 
 .big-picture-bar-textbar {
@@ -215,6 +259,106 @@ body {
 	background-color: rgb(84,83,82);
 	box-shadow: 0 4px 6px -6px black;
 	margin: 0;
+}
+
+
+
+
+
+
+
+
+.grey-box {
+	height: 118px;
+	width: 139px;
+	background-color: rgb(208,205,199);
+	position: absolute;
+	z-index: 3;
+}
+
+.darker-grey-box {
+	height: 33px;
+	width: 139px;
+	background-color: rgb(182,174,162);
+	position: absolute;
+	z-index: 3;
+}
+
+.grey-box1-location {
+	margin-left: 862px;
+	margin-top: 30px;
+}
+
+.darker-grey-box1-location {
+	margin-left: 862px;
+	margin-top: 148px;
+}
+
+.grey-box2-location {
+	margin-left: 1021px;
+	margin-top: 30px;
+}
+
+.darker-grey-box2-location {
+	margin-left: 1021px;
+	margin-top: 148px;
+}
+
+.big-text {
+	font-size: 70;
+	margin-left: 30px;
+	margin-top: 36px;
+	position: absolute;
+	color: rgb(255,255,255);
+}
+
+
+	<style type="text/css">
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffed7a), color-stop(1, #eb7d41) );
+	background:-moz-linear-gradient( center top, #ffed7a 5%, #eb7d41 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed7a', endColorstr='#eb7d41');
+	background-color:#ffed7a;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:61px;
+	line-height:61px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ce8e28;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eb7d41), color-stop(1, #ffed7a) );
+	background:-moz-linear-gradient( center top, #eb7d41 5%, #ffed7a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb7d41', endColorstr='#ffed7a');
+	background-color:#eb7d41;
+}.classname:active {
+	position:relative;
+	top:1px;
+}</style>
+/* This button was generated using CSSButtonGenerator.com */
 }
 
 
