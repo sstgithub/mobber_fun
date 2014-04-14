@@ -203,6 +203,39 @@ body {
 	width: 521px;
 }
 
+
+.below-white-box {
+	font-size: 11;
+	text-align: center;
+	position: absolute;
+	color: rgb(120,120,120);
+	width: 266px;
+	margin-left: 10px;
+}
+
+.boxy {
+	width: 300px;
+	height: 90px;
+	position: absolute;
+	margin-left: 669px;
+	margin-top: 323px;
+	background-color: #F2F0EC;
+}
+
+.new-hr {
+	width: 100%;
+	height: 0.5px; 
+	border: 0; 
+	background-color: rgb(177,177,177); 
+	margin-top: 50px;
+	margin-bottom: 17px;
+}
+
+.white-box-margins {
+	margin-left: 90px;
+	margin-top: 90px;
+}
+
 .big-picture {
 	background:url("images/u2concert.jpg");
 	position:absolute;
@@ -306,15 +339,73 @@ body {
 
 .big-text {
 	font-size: 70;
-	margin-left: 30px;
-	margin-top: 36px;
 	position: absolute;
 	color: rgb(255,255,255);
+	margin-top: 20px;
+}
+
+.first-number {
+	margin-left: 30px;
+}
+
+.second-number {
+	margin-left: 10px;
+}
+
+.little-text {
+	font-size: 14;
+	position: absolute;
+	color: rgb(65,65,65);
+	text-align: center;
+	margin-top: 9px;
+}
+
+.first-word {
+	margin-left: 38px;
+}
+
+.second-word {
+	margin-left: 5px;
+}
+
+.big-yellow-button-text {
+	font-size: 20;
+	position: absolute;
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 73px;
+}
+
+.ribbon-image {
+	margin-left: 9px;
+	margin-top: 14px;
+}
+
+.white-box-text-1 {
+	font-size: 15;
+	position: absolute;
+	color: black;
+	text-align: center;
+	margin-top: 22px;
+	margin-left: 3px;
+	font-weight: 900;
+}
+
+.white-box-text-2 {
+	font-size: 13;
+	position: absolute;
+	color: black;
+	text-align: center;
+	margin-top: 43px;
+	margin-left: 3px;
+	font-weight: normal;
 }
 
 
-	<style type="text/css">
-.classname {
+
+	
+/*.classname {
 	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
 	box-shadow:inset 0px 1px 0px 0px #fceaca;
@@ -338,16 +429,18 @@ body {
 	border:1px solid #eeb44f;
 	display:inline-block;
 	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
+	font-family: "Muli";
+	font-size:20px;
 	font-weight:bold;
 	font-style:normal;
 	height:61px;
 	line-height:61px;
-	width:200px;
+	width:300px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ce8e28;
+	margin-left: 862px;
+	margin-top: 201px;
 }
 .classname:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eb7d41), color-stop(1, #ffed7a) );
@@ -357,10 +450,72 @@ body {
 }.classname:active {
 	position:relative;
 	top:1px;
-}</style>
-/* This button was generated using CSSButtonGenerator.com */
+}*/
+
+.big-yellow-button {
+	margin-left: 663px;
+	margin-top: 173px;
+	height: 60px;
+	width: 298px;
+	background:url("images/bkgd-button.png");
+	box-shadow: 0 4px 6px -6px black;
+	border-radius: 8px;
+	z-index: 2;
+	border:1px solid #eeb44f;
+	position: absolute;
 }
 
+.white-box {
+	position: absolute;
+	-moz-box-shadow:inset 0px -5px 0px 0px #e8e8e8;
+	-webkit-box-shadow:inset 0px -5px 0px 0px #e8e8e8;
+	box-shadow:inset 0px -5px 0px 0px #e8e8e8;
+	margin-left: 666px;
+	margin-top: 225px;
+	height: 84px;
+	width: 290px;
+	background-color: white;
+	border-radius: 8px;
+	z-index: 1;
+	border:1px solid rgb(177,177,177);
+}
+
+.three-pictures-bar {
+	position: absolute;
+	margin-left: 238px;
+	margin-top: 40px;
+	height: 283;
+	width: 942;
+}
+
+.image-2 {
+	margin-left: 17px;
+	height: 195px;
+	width: 300px;
+}
+
+.three-pictures-text-1 {
+	position: absolute;
+	margin-top: 10px;
+	height: 45px;
+	width: 300px;
+}
+
+.three-pictures-text-2 {
+	margin-left: 317px;
+}
+
+.three-pictures-text-3 {
+	margin-left: 634px;
+}
+
+.bold-text-box {
+	font-family: Arial;
+	font-size: 14;
+	font-weight: bolder;
+	height: 35;
+	width: 179;
+}
 
 /*.inside {
 	width: 60px;
